@@ -15,8 +15,8 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
+        // withGlobalStyles
+        // withNormalizeCSS
         emotionCache={createEmotionCache({ key: "mantine", prepend: false })}
         theme={{
           /** Put your mantine theme override here */
